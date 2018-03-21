@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+body {
+  font-family: "Noto Sans TC", sans-serif;
+
+  background: url("http://highschool.ee.nthu.edu.tw/administration/upload/images/P1030308.JPG");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+div.title {
+  background: url("./images/6452.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  font-size: 2.5rem;
+}
+div .staff {
+  background: seashell;
+}
+div.signup {
+  /*background: rgba(0, 255, 255, 0.6);*/
+  background-color: lavender;
+}
+.navbar {
+  z-index: 999;
+}
+div .googlemap {
+  background: rgba(204, 226, 215, 0.637);
+}
+
+.title-container {
+  text-align: center;
+  letter-spacing: 0.4rem;
+  font-size: 5vmin;
+  line-height: 5rem;
+}
+.sign-container {
+  text-align: center;
+}
+.about-camp {
+  padding: 3rem;
+  text-overflow: ellipsis;
+}
+div .section {
+  overflow: hidden;
+}
+.subtitle {
+  font-family: "Noto Sans TC", sans-serif;
+
+  text-align: center;
+  font-size: calc(7px+ 1.5vmin);
+  letter-spacing: 1rem;
+  line-height: 2rem;
+}
+.text {
+  text-align: center;
+  font-size: calc(4px+ 1vmin);
+  letter-spacing: 0.5rem;
+  line-height: calc(1rem+1vh);
+}
+.impress {
+  font-size: 2.5rem;
+}
+
+.contact {
+  background: rgba(106, 173, 199, 0.781);
+}
