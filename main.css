@@ -41,6 +41,9 @@ div .googlemap {
   padding: 3rem;
   text-overflow: ellipsis;
 }
+div .design {
+  text-overflow: ellipsis;
+}
 div .section {
   overflow: hidden;
 }
