@@ -58,8 +58,72 @@
         <div class="signup section ">
             <div class="container-fluid sign-container ">
                 <div class="subtitle"> 報名流程:</div>
-                <div class="row">
-                    <div class="col-lg-2 "></div>
+
+                <div class="slide">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-12 col-lg-8">
+                            <div class="impress">1.</div>
+                            <div class="text">線上報名</div>
+                            <div class="impress">報名期限</div>
+                            <br>2018/5/15
+                            <br>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYOfQ0IgumI2dO5UuBIH12M_gVqJxIEOy3l6VRCq_Cxk27FA/viewform?usp=sf_link ">
+                                <button class="btn btn-info ">即刻報名</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-12 col-lg-8">
+                            <div class="impress">2.</div>
+                            <div class="text">等待錄取通知</div>
+                            <div class="text">預計於2018/5/19公布
+
+                            </div>
+                            <a href="https://www.facebook.com/NTHUComputerScienceCamp/ ">
+                                <button class="btn btn-info">清大資工營粉專</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-12 col-lg-8">
+                            <div class="impress hidden-sm-down">3.</div>
+                            <div class="text">
+                                <p class="hidden-sm-down" style="text-align:left;">匯款繳費：請在接獲錄取通知的
+                                    <b>一星期</b>內完成匯款
+                                    <br>匯款帳號：(郵局) 700 006102-1-055640-0 戶名：國立清華大學資訊工程研習營黃竣詳
+                                    <br>請於匯款過後主動傳送簡訊給執秘(蔡宗勳 0937875250)
+                                    <br>內容包含: 1.學員姓名 | 2.轉帳金額 | 3.匯款日期及時間 | 4.帳號後六碼
+                                    <div class="hidden-sm-down">我們在確認收到款項後將以e-mail或是以簡訊告知匯款成功
+                                    </div>
+                                </p>
+                                <p class="hidden-sm-down" style="text-align:left;">臨櫃辦理｜ step1 : 前往郵局 step2 : 填寫匯款單 匯款帳號：(郵局)700 006102-1-055640-0 戶名：國立清華大學資訊工程研習營黃竣詳 金額：5000元
+                                    step3 直接在郵局櫃台完成匯款後，請保留收據以便日後確認。 請於匯款過後主動傳送簡訊給執秘(蔡宗勳 0937875250) 內容包含: 1.學員姓名 | 2.轉帳金額
+                                    | 3.匯款日期及時間 | 4.帳號後六碼 我們在確認收到款項後將以e-mail或是以簡訊告知匯款成功</p>
+                                <p class="hidden-lg-up " style="text-align:left;">匯款期限: 錄取後一周
+                                    <br>帳號:
+                                    <br>(700)006102-1-055640-0
+                                    <br>戶名： 國立清華大學資訊工程研習營黃竣詳
+                                    <br>完成繳費後傳送簡訊給 +886-937-875-250
+                                    <br>內容包含: 學員姓名 | 轉帳金額 | 匯款日期及時間 | 帳號後六碼
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
+                </div>
+                <!--<div class="row">
+                                        <div class="col-lg-2 "></div>
                     <div class="col-6 col-lg-2 " style="background: rgba(0,255,0,0.3); ">
                         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
@@ -73,7 +137,7 @@
                                 </div>
                                 <div class="back">
                                     <p>
-                                        <div class="impress">1.</div>
+                                        <div class="impress"></div>
                                         報名期限
                                         <br>2018/5/15
                                         <br>
@@ -139,7 +203,8 @@
                         </p>
                     </div>
                     <div class="col-lg-2 "></div>
-                </div>
+                 </div>-->
+
                 <!--<div class="container">
                     <div class="subtitle"> 報名流程:</div>
                     <ul class="nav nav-tabs" role="tablist">
@@ -323,16 +388,16 @@
                 anchors: ['Main', 'signup', 'information', 'staff', 'googlemap', 'FAQ', 'contact'],
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['firstSlide', 'secondSlide'],
+                navigationTooltips: ['Main', 'signup', 'information', 'staff', 'googlemap', 'FAQ', 'contact'],
                 showActiveTooltip: false,
-                /*slidesNavigation: false,
-                slidesNavPosition: 'bottom',*/
+                slidesNavigation: true,
+                slidesNavPosition: 'bottom',
 
                 //Scrolling
                 css3: true,
                 scrollingSpeed: 700,
-                /*autoScrolling: true,
-                fitToSection: true,*/
+                autoScrolling: true,
+                /*fitToSection: true,*/
                 fitToSectionDelay: 1000,
                 scrollBar: false,
                 easing: 'easeInOutCubic',
@@ -342,12 +407,12 @@
                 loopHorizontal: true,
                 continuousVertical: false,
                 continuousHorizontal: false,
-                scrollHorizontally: false,
+                scrollHorizontally: true,
                 interlockedSlides: false,
                 dragAndMove: true,
                 offsetSections: false,
                 resetSliders: false,
-                fadingEffect: false,
+                fadingEffect: true,
                 /*normalScrollElements: '#element1, .element2',*/
                 scrollOverflow: false,
                 scrollOverflowReset: false,
